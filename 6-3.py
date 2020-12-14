@@ -1,0 +1,6 @@
+y=eval(input("請輸入五個考試成績"))
+print("分數串列",[y])
+y.sort()
+print("低分往高分排序:",y)
+print("最高分:",max(y))
+print("總分:",sum(y))
